@@ -3,8 +3,6 @@ services:
   worker:
     build: .
     environment:
-     - TG_BOT_TOKEN=${TG_BOT_TOKEN}
+     - BOT_TOKEN=${BOT_TOKEN}
      - APP_ID=${APP_ID}
      - API_HASH=${API_HASH}
-     - AUTH_CHANNEL=${AUTH_CHANNEL}
-     - OWNER_ID=${OWNER_ID}
